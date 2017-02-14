@@ -1,0 +1,63 @@
+/*
+Theme Name: Higher Theme
+Author: Vladimir Alexandrov
+*/
+
+body{
+
+}
+
+
+/*header*/
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alllogo{
+    display: flex;
+    align-items: flex-end;
+}
+
+.years{
+    background: #fc7c0a;
+    border: 1px solid #fc7c0a;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.years2{
+    border: 1px solid #fc7c0a;
+    right: 4px;
+    position: relative;
+
+}
+
+.years, .years2{
+    padding: 10px;
+}
+
+.alllogo, .call{
+    padding: 0;
+}
+
+.tel{
+    font-size: 29.354px;
+    font-family: "Century Gothic";
+    color: rgb(21, 124, 188);
+    line-height: 0.818;
+    position: relative;
+    top: 4px;
+    text-transform: uppercase;
+    -moz-transform: matrix( 0.98519169776504,0,0,0.9846582177153,0,0);
+    -webkit-transform: matrix( 0.98519169776504,0,0,0.9846582177153,0,0);
+    -ms-transform: matrix( 0.98519169776504,0,0,0.9846582177153,0,0);
+}
+
+.family{
+    background: url(/wp-content/themes/higher/img/family.jpg);
+    height: 290px;
+}
+
+
